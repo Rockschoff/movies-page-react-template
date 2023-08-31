@@ -1,0 +1,68 @@
+body {
+  padding: 0px;
+}
+
+.app {
+}
+
+.links {
+  width: 50%;
+}
+.sidemenu-button {
+  padding-inline: 10px;
+}
+.navbar {
+  width: 100vw;
+  height: 7vh;
+  background-color: lavenderblush;
+  display: flex;
+  justify-content: space-between;
+}
+
+.links > ul {
+  display: flex;
+  list-style: none;
+}
+
+.links > ul > li {
+  padding-inline: 5px;
+}
+
+.wrapper {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: lavender;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 0fr 1fr;
+  transition: 500ms;
+}
+
+.sidemenu {
+  overflow: hidden;
+  background-color: lightgoldenrodyellow;
+}
+.sidemenu > ul {
+  list-style: none;
+}
+
+.sidemenu > ul > li {
+  text-align: left;
+}
+
+.movie-grid {
+  /* border: 1px solid lightcoral; */
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-row-gap: 15px;
+  grid-column-gap: 15px;
+}
+
+.movie-pic {
+  width: auto;
+  height: 100px;
+  background-color: whitesmoke;
+}
